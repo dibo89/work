@@ -197,6 +197,41 @@ html {font-size:8px}
 	background-size:100% 43px;
 }
 
+@media all and (min-width: 768px) and (max-width: 1920px) {
+	.event-tab .event-tab-inner li a {
+	display: block;
+	text-indent: -9999px;
+	height:86px;
+	width:100%;
+	
+}
+.event-tab .event-tab-inner .menu-call {
+	background:url('../img/tab_menu01.png') no-repeat   ;
+	
+}
+.event-tab .event-tab-inner .menu-call.selected {
+	background:url('../img/tab_menu01_on.png') no-repeat   ;
+	
+}
+.event-tab .event-tab-inner .menu-chart {
+	background:url('../img/tab_menu02.png') no-repeat   ;
+	
+}
+.event-tab .event-tab-inner .menu-chart.selected {
+	background:url('../img/tab_menu02_on.png') no-repeat   ;
+	
+}
+.video-vote a {
+	text-indent: -9999px;
+	display: block;
+	margin:0 auto;
+	background:url('../img/votebtn.jpg') no-repeat   ;
+	width: 120px;
+    height: 34px;
+}
+
+
+}
 .video-vote {
 	padding-top: 3%;
     padding-bottom: 3%;
