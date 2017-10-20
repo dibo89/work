@@ -176,7 +176,7 @@ html {font-size:8px}
 .event-tab .event-tab-inner li a {
 	display: block;
 	text-indent: -9999px;
-	padding-top:11.94444444444444%;
+	padding-top:13.94444444444444%;
 	width:100%;
 	
 }
@@ -441,7 +441,7 @@ html {font-size:8px}
 }
 .agreepopup-inp ul li input {
 	border: 1px solid #ddd;
-	height:19px;;
+	height:22px;;
 	width:84%;
 	box-sizing:border-box;
 }
