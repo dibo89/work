@@ -12,21 +12,21 @@ button::-moz-focus-inner {padding:0;border:0}
 .ellip {text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden;}
 
 /* title */
-.title {position:relative;width:100%;font-size:0;padding-top:66.94444444444444%;line-height:0;text-indent:-9999px;background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/top.jpg') no-repeat 0 0;background-size:100% 100%}
+.title {position:relative;width:100%;font-size:0;padding-top:66.94444444444444%;line-height:0;text-indent:-9999px;background:url('../img/top.jpg') no-repeat 0 0;background-size:100% 100%}
 
 /* event */
-.event {position:relative;width:100%;padding-top:230.38888888889%;font-size:0;line-height:0;text-indent:-9999px;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/event.jpg') no-repeat 0 0;background-size:100% 100%}
+.event {position:relative;width:100%;padding-top:230.38888888889%;font-size:0;line-height:0;text-indent:-9999px;background:url('../img/event.jpg') no-repeat 0 0;background-size:100% 100%}
 .event a{display:block;position:absolute}
 .event a.btn-event{top:78%;left:25%;width:50%;height:6%}
 .event a.btn-faq{top:86.6%;left:25%;width:50%;height:3.8%}
 .event a.btn-music{top:90.8%;left:25%;width:50%;height:3.8%}
 
 /* tab */
-.tab {position:relative;width:100%;padding-top:11.805555555556%;font-size:0;line-height:0;text-indent:-9999px;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/tab_title.png') no-repeat 10.694444444% 0;background-size:auto 100%;border-bottom:1px solid #ececec}
+.tab {position:relative;width:100%;padding-top:11.805555555556%;font-size:0;line-height:0;text-indent:-9999px;background:url('../img/tab_title.png') no-repeat 10.694444444% 0;background-size:auto 100%;border-bottom:1px solid #ececec}
 .tab ul{display:block;position:absolute;top:0;right:6%;width:24.22222222222%;height:100%}
 .tab ul:after{content:""; display:block; clear:both}
 .tab ul li{float:left;width:46%;height:100%;margin:0 1%}
-.tab ul li a{display:block;width:100%;height:100%;font-size:0;line-height:0;text-indent:-9999px;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/tab.png') no-repeat;background-size:300% 200%}
+.tab ul li a{display:block;width:100%;height:100%;font-size:0;line-height:0;text-indent:-9999px;background:url('../img/tab.png') no-repeat;background-size:300% 200%}
 .tab ul li a.tab-puy{background-position:100% 0}
 .tab ul li a.tab-puy.on{background-position:0 0}
 .tab ul li a.tab-new{background-position:100% 100%}
@@ -47,12 +47,12 @@ button::-moz-focus-inner {padding:0;border:0}
 .video .clip-info{position:relative;width:100%;padding-top:16.90647482014388%;font-size:0.875em;border:1px solid #ececec;border-top:none;box-sizing:border-box}
 .video .clip-info:after{content:""; display:block; clear:both}
 .video .clip-info .view{position:absolute;top:32%;left:6%;width:28%;height:36.17021276595745%;padding-left:9.2359%;font-family:'Malgun Gothic','맑은고딕';font-size:1em;font-weight:bold;line-height:1.2;color:#aaa}
-.video .clip-info .view:after{content:""; display:block;position:absolute;top:0;left:0;width:22.12389380530937%;height:100%;background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/goodbtn.png') no-repeat 0 0;background-size:auto 100%}
+.video .clip-info .view:after{content:""; display:block;position:absolute;top:0;left:0;width:22.12389380530937%;height:100%;background:url('../img/goodbtn.png') no-repeat 0 0;background-size:auto 100%}
 .video .clip-info .profile{display:block;position:absolute;top:13%;right:6%;width:45%;height:74.4608510638298%}
 .video .clip-info .name{position:absolute;top:25%;right:31%;width:75%;height:48.57142857142857%;font-family:'Malgun Gothic','맑은고딕';font-size:1em;line-height:1;text-align:right;color:#262626;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden}
 .video .clip-info .pro{display:block;position:absolute;top:0;right:0;width:28.45528455284553%;height:100%;border-radius:50%;overflow:hidden}
 .video .clip-info .pro img{width:100%}
-.video .btn-wrap a{position:relative;display:block;width:47.08333333333%;padding-top:7.77777777778%;margin:0 auto;font-size:0;line-height:0;text-indent:-9999px;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/btn_load.png') no-repeat 0 0;background-size:100% 100%}
+.video .btn-wrap a{position:relative;display:block;width:47.08333333333%;padding-top:7.77777777778%;margin:0 auto;font-size:0;line-height:0;text-indent:-9999px;background:url('../img/btn_load.png') no-repeat 0 0;background-size:100% 100%}
 
 
 
@@ -61,7 +61,7 @@ button::-moz-focus-inner {padding:0;border:0}
 .mtb-content {background-color:#fff;max-width:618px}
 .mtb-popup .mtb-hd {position:relative;width:100%;height:4.375em;line-height:4.375em;background-color:#05b5e5;font-size:1em;text-align:left}
 .mtb-popup .mtb-hd h3 {padding-left:0.925em;color:#fff;font-size:1.6875em;font-weight:normal}
-.mtb-popup .mtb-hd .layer-close {position:absolute;top:1.25em;right:1.25em;width:1.875em;height:1.875em;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/btn_close.png') no-repeat;background-size:100%;font-size:1em}
+.mtb-popup .mtb-hd .layer-close {position:absolute;top:1.25em;right:1.25em;width:1.875em;height:1.875em;background:url('../img/btn_close.png') no-repeat;background-size:100%;font-size:1em}
 .mtb-popup .mtb-scroll {overflow-y:auto;-webkit-overflow-scrolling:touch}
 .mtb-popup .blue {color:#05b5e5 !important}
 .mtb-popup span, .mtb-popup strong {vertical-align:baseline}
@@ -84,7 +84,7 @@ button::-moz-focus-inner {padding:0;border:0}
 .mtb-popup .mtb-contents .faq-info{width:100%;padding:1.6666666667em 2.22222222222em;font-size:1.125em;line-height:1.55555em;text-align:left;background:#f0efef;letter-spacing:-0.05em;box-sizing:border-box;word-break:keep-all}
 
 /* popup video */
-.mtb-popup .popup-video .layer-close {position:absolute;top:-2.1875em;right:0;width:1.9375em;height:1.9375em;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/video_close.png') no-repeat;background-size:100%;font-size:1em}
+.mtb-popup .popup-video .layer-close {position:absolute;top:-2.1875em;right:0;width:1.9375em;height:1.9375em;background:url('../img/video_close.png') no-repeat;background-size:100%;font-size:1em}
 .mtb-popup .popup-video{position:relative;width:100%;padding:0.9375em;background:#fff;box-sizing:border-box}
 .mtb-popup .mtb-video {position:relative;padding-top:55.61224489795918%;background-color:#dbeaf4}
 .mtb-popup .mtb-video iframe {position:absolute;width:100%;height:100%;top:0}
@@ -134,7 +134,7 @@ html {font-size:8px}
 	font-size:0;
 	line-height:0;
 	text-indent:-9999px;
-	background:url('./img/middle.jpg') no-repeat 0 0;
+	background:url('../img/middle.jpg') no-repeat 0 0;
 	background-size:100% 100%;
 }
 .event-info a{display:block;height:8.8%;}
@@ -181,19 +181,19 @@ html {font-size:8px}
 	
 }
 .event-tab .event-tab-inner .menu-call {
-	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/tab_menu01.png') no-repeat   ;
+	background:url('../img/tab_menu01.png') no-repeat   ;
 	background-size:100% 100%
 }
 .event-tab .event-tab-inner .menu-call.selected {
-	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/tab_menu01_on.png') no-repeat   ;
+	background:url('../img/tab_menu01_on.png') no-repeat   ;
 	background-size:100% 100%
 }
 .event-tab .event-tab-inner .menu-chart {
-	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/tab_menu02.png') no-repeat   ;
+	background:url('../img/tab_menu02.png') no-repeat   ;
 	background-size:100% 100%
 }
 .event-tab .event-tab-inner .menu-chart.selected {
-	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/tab_menu02_on.png') no-repeat   ;
+	background:url('../img/tab_menu02_on.png') no-repeat   ;
 	background-size:100% 100%
 }
 
@@ -210,7 +210,7 @@ html {font-size:8px}
 	text-indent: -9999px;
 	display: block;
 	margin:0 auto;
-	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/votebtn.jpg') no-repeat   ;
+	background:url('../img/votebtn.jpg') no-repeat   ;
 	background-size:100% 100%
 }
 
@@ -220,7 +220,7 @@ html {font-size:8px}
 	position: relative;
 	width:100%;
 	padding-top: 185.8333333333333%;
-	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/bottom.jpg') no-repeat;
+	background:url('../img/bottom.jpg') no-repeat;
 	background-size:100% 100%
 }
 
@@ -279,7 +279,7 @@ html {font-size:8px}
     padding-top: 1.388888888888889%;
     margin-bottom: 1%;
     text-indent: -9999px;
-    background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/tab_text.jpg) no-repeat;
+    background: url(../img/tab_text.jpg) no-repeat;
     background-size: 100% 50%;
 }
 .event-livechart .clip-thum:after {
@@ -290,7 +290,7 @@ html {font-size:8px}
 	height:34px;
     top: 0;
     left: 0;
-	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/sp-level.png) no-repeat;
+	background: url(../img/sp-level.png) no-repeat;
 	background-size:170px 150px
 }
 .event-livechart .level1 .clip-thum:after {
@@ -346,7 +346,7 @@ html {font-size:8px}
 
 /*팝업 레이어*/
 .layer-head {
-	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/poptit.jpg) no-repeat;
+	background: url(../img/poptit.jpg) no-repeat;
     /* height: 35px; */
     background-size: 100% 100%;
     position: relative;
@@ -361,7 +361,7 @@ html {font-size:8px}
     right: 1.25em;
     width: 1.875em;
     height: 1.875em;
-    background: url(http://image.genie.co.kr/imageg/app/promo_2017/0914/btn_close.png) no-repeat;
+    background: url(../img/btn_close.png) no-repeat;
     background-size: 100%;
 	font-size: 1em;
 	text-indent: -9999px;
@@ -379,7 +379,7 @@ html {font-size:8px}
 	width:170px;
 	margin:0 auto;
 	display: block;
-	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/vote.jpg) no-repeat;
+	background: url(../img/vote.jpg) no-repeat;
 	height: 28px;
 	background-size: 100% 100%;
 
@@ -423,7 +423,7 @@ html {font-size:8px}
 }
 .agreepopup-inp h4{
 	width:72px;
-	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/agree.jpg) no-repeat 0 0;
+	background: url(../img/agree.jpg) no-repeat 0 0;
 	background-size: 72px 13px;
 	font-size: 0;
 	height:13px;
@@ -472,7 +472,7 @@ html {font-size:8px}
 @media all and (min-width: 768px) and (max-width: 1024px) {
 	.agreepopup-inp h4 {
 		width: 144px;
-		background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/agree.jpg) no-repeat 0 0;
+		background: url(../img/agree.jpg) no-repeat 0 0;
 		background-size: 100% 100%;
 		font-size: 0;
 		height: 26px;
@@ -484,13 +484,13 @@ html {font-size:8px}
 }
 .img-inner {
 	width:100%;
-	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/pic1.jpg) no-repeat 0 0;
+	background: url(../img/pic1.jpg) no-repeat 0 0;
 	background-size: 100% 100%;
 	padding-top: 113.3333333333333%;
 }
 .staff .img-inner {
 	width:100%;
-	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/pic2.jpg) no-repeat 0 0;
+	background: url(../img/pic2.jpg) no-repeat 0 0;
 	background-size: 100% 100%;
 	padding-top: 113.3333333333333%;
 }
