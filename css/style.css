@@ -1,0 +1,525 @@
+@charset 'utf-8';
+
+* {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:middle;background:transparent}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
+body {min-width:320px;max-width:720px;-webkit-text-size-adjust:100%;background-color:#fff;margin:0 auto;line-height:1.5;color:#000}
+nav, ul {list-style:none}
+a {-webkit-tap-highlight-color:transparent;text-decoration:none}
+
+button::-moz-focus-inner {padding:0;border:0}
+*:focus {outline:none}
+.hide {display:block;width:0;height:0;overflow:hidden;font-size:0;line-height:0;text-indent:-9999px}
+.ellip {text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden;}
+
+/* title */
+.title {position:relative;width:100%;font-size:0;padding-top:66.94444444444444%;line-height:0;text-indent:-9999px;background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/top.jpg') no-repeat 0 0;background-size:100% 100%}
+
+/* event */
+.event {position:relative;width:100%;padding-top:230.38888888889%;font-size:0;line-height:0;text-indent:-9999px;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/event.jpg') no-repeat 0 0;background-size:100% 100%}
+.event a{display:block;position:absolute}
+.event a.btn-event{top:78%;left:25%;width:50%;height:6%}
+.event a.btn-faq{top:86.6%;left:25%;width:50%;height:3.8%}
+.event a.btn-music{top:90.8%;left:25%;width:50%;height:3.8%}
+
+/* tab */
+.tab {position:relative;width:100%;padding-top:11.805555555556%;font-size:0;line-height:0;text-indent:-9999px;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/tab_title.png') no-repeat 10.694444444% 0;background-size:auto 100%;border-bottom:1px solid #ececec}
+.tab ul{display:block;position:absolute;top:0;right:6%;width:24.22222222222%;height:100%}
+.tab ul:after{content:""; display:block; clear:both}
+.tab ul li{float:left;width:46%;height:100%;margin:0 1%}
+.tab ul li a{display:block;width:100%;height:100%;font-size:0;line-height:0;text-indent:-9999px;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/tab.png') no-repeat;background-size:300% 200%}
+.tab ul li a.tab-puy{background-position:100% 0}
+.tab ul li a.tab-puy.on{background-position:0 0}
+.tab ul li a.tab-new{background-position:100% 100%}
+.tab ul li a.tab-new.on{background-position:0 100%}
+
+/* video */
+.video {position:relative;width:100%;padding:4.722222222222% 9% 0 9%;box-sizing:border-box;background-color:#f4f4f4}
+.video .video-list{margin-left:-5.755395683453237%}
+.video .video-list:after{content:""; display:block; clear:both}
+.video .video-list li{position:relative;float:left;width:44.24460431654676%;height:49.1166077385159%;margin-left:5.755395683453237%;margin-bottom:7.553956834532374%}
+.video .video-clip{width:100%;font-family:'Malgun Gothic','맑은고딕';background-color:#fff}
+.video .clip-thum{width:100%;height:53.5912230215827%;background:#eee}
+.video .clip-thum a:before{content:""; display:block;position:absolute;top:0;left:0;width:100%;height:54.3912230215827%;border:1px solid rgba(0,0,0, 0.1);box-sizing:border-box}
+.video .clip-thum img{width:100%;height:auto}
+.video .clip-txt{position:relative;width:100%;padding-top:29.49640287769784%;font-size:0.875em;border:1px solid #ececec;border-top:none;border-bottom:none;background-color:#fff;box-sizing:border-box}
+.video .clip-txt .tit{position:absolute;top:18%;left:6%;width:85%;height:1.2em;font-size:1.285714285714286em;line-height:1;font-weight:bold;color:#262626}
+.video .clip-txt .txt{position:absolute;top:51.21951219512195%;left:6%;width:85%;height:1.2em;font-size:1em;line-height:1;color:#b9b9b9}
+.video .clip-info{position:relative;width:100%;padding-top:16.90647482014388%;font-size:0.875em;border:1px solid #ececec;border-top:none;box-sizing:border-box}
+.video .clip-info:after{content:""; display:block; clear:both}
+.video .clip-info .view{position:absolute;top:32%;left:6%;width:28%;height:36.17021276595745%;padding-left:9.2359%;font-family:'Malgun Gothic','맑은고딕';font-size:1em;font-weight:bold;line-height:1.2;color:#aaa}
+.video .clip-info .view:after{content:""; display:block;position:absolute;top:0;left:0;width:22.12389380530937%;height:100%;background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/goodbtn.png') no-repeat 0 0;background-size:auto 100%}
+.video .clip-info .profile{display:block;position:absolute;top:13%;right:6%;width:45%;height:74.4608510638298%}
+.video .clip-info .name{position:absolute;top:25%;right:31%;width:75%;height:48.57142857142857%;font-family:'Malgun Gothic','맑은고딕';font-size:1em;line-height:1;text-align:right;color:#262626;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden}
+.video .clip-info .pro{display:block;position:absolute;top:0;right:0;width:28.45528455284553%;height:100%;border-radius:50%;overflow:hidden}
+.video .clip-info .pro img{width:100%}
+.video .btn-wrap a{position:relative;display:block;width:47.08333333333%;padding-top:7.77777777778%;margin:0 auto;font-size:0;line-height:0;text-indent:-9999px;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/btn_load.png') no-repeat 0 0;background-size:100% 100%}
+
+
+
+/* 공통 팝업 스타일 */
+.mtb-popup {display:none;position:relative;width:84.166666666667%;max-width:618px}
+.mtb-content {background-color:#fff;max-width:618px}
+.mtb-popup .mtb-hd {position:relative;width:100%;height:4.375em;line-height:4.375em;background-color:#05b5e5;font-size:1em;text-align:left}
+.mtb-popup .mtb-hd h3 {padding-left:0.925em;color:#fff;font-size:1.6875em;font-weight:normal}
+.mtb-popup .mtb-hd .layer-close {position:absolute;top:1.25em;right:1.25em;width:1.875em;height:1.875em;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/btn_close.png') no-repeat;background-size:100%;font-size:1em}
+.mtb-popup .mtb-scroll {overflow-y:auto;-webkit-overflow-scrolling:touch}
+.mtb-popup .blue {color:#05b5e5 !important}
+.mtb-popup span, .mtb-popup strong {vertical-align:baseline}
+.mtb-popup .mtb-contents {height:42.5em;background-color:#fff;line-height:1.5;color:#282828;text-align:left}
+
+.mtb-popup .mtb-contents table{width:93%;margin:2em auto 4.375em;border-bottom:1px solid #ddd;border-collapse:collapse; border-spacing:0; font-family:dotum, sans-serif; font-size:1em; color:#444}
+.mtb-popup .mtb-contents table thead th{padding:0.35em 0 0.35em;border-bottom:1px solid #09b6e6;font-family:'Malgun Gothic','맑은고딕';font-size:1.25em;text-align:center;color:#262626}
+.mtb-popup .mtb-contents table tbody th{padding:0.35em 0.75em 0.6em 0.5em;font-family:'Malgun Gothic','맑은고딕';font-size:1.25em;text-align:left !important;line-height:1.25em;color:#262626}
+.mtb-popup .mtb-contents table td{padding:0.85em 0.35em 0.5em 1em;border-left:1px solid #ddd;border-bottom:1px solid #ddd;font-family:'Malgun Gothic','맑은고딕';font-size:1.125em;text-align:left;line-height:1.125em;color:#262626}
+.mtb-popup .mtb-contents .bod-gray{border-left:1px solid #ddd; border-right:1px solid #ddd}
+.mtb-popup .mtb-contents .last-gray{border-bottom:1px solid #ddd}
+.mtb-popup .mtb-contents .bod-blue{border-bottom:1px solid #09b6e6 !important}
+
+.mtb-popup .mtb-contents .fap{margin:1.25em 1.5em 1.25em 1.25em}
+.mtb-popup .mtb-contents .fap dt{position:relative;margin:1em 0 0.5em;padding-left:2.5em;font-size:1.25em;line-height:1.4em;font-weight:bold;color:#09b6e6;word-break:keep-all}
+.mtb-popup .mtb-contents .fap dd{position:relative;padding:0 0 0.83em 2.75em;font-size:1.125em;line-height:1.5em;border-bottom:1px solid #ddd;color:#262626;word-break:keep-all}
+.mtb-popup .mtb-contents .fap dd.last{border-bottom:none}
+.mtb-popup .mtb-contents .fap dt:before{content:"Q";display:block;position:absolute;top:0;left:0.8em;font-family:'Malgun Gothic','맑은고딕';font-size:1.25em;font-weight:bold;color:#09b6e6}
+.mtb-popup .mtb-contents .fap dd:before{content:"A";display:block;position:absolute;top:0;left:1em;font-family:'Malgun Gothic','맑은고딕';font-size:1.25em;font-weight:bold;color:#262626}
+.mtb-popup .mtb-contents .faq-info{width:100%;padding:1.6666666667em 2.22222222222em;font-size:1.125em;line-height:1.55555em;text-align:left;background:#f0efef;letter-spacing:-0.05em;box-sizing:border-box;word-break:keep-all}
+
+/* popup video */
+.mtb-popup .popup-video .layer-close {position:absolute;top:-2.1875em;right:0;width:1.9375em;height:1.9375em;background:url('http://image.genie.co.kr/imageg/app/promo_2017/0914/video_close.png') no-repeat;background-size:100%;font-size:1em}
+.mtb-popup .popup-video{position:relative;width:100%;padding:0.9375em;background:#fff;box-sizing:border-box}
+.mtb-popup .mtb-video {position:relative;padding-top:55.61224489795918%;background-color:#dbeaf4}
+.mtb-popup .mtb-video iframe {position:absolute;width:100%;height:100%;top:0}
+.mtb-popup .pop-title {width:100%;padding:1.6875em;background-color:#fff;text-align:center;box-sizing:border-box}
+.mtb-popup .pop-title .tit{font-size:1.625em;font-weight:bold;line-height:1;color:#262626}
+.mtb-popup .pop-title .txt {margin-top:0.8125em;font-size:1em;line-height:1;color:#797979}
+
+/* for safari */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+	@media {
+	}
+}
+
+html {font-size:8px}
+@media screen and (min-width: 360px){
+	html {font-size:9px}
+}
+@media screen and (min-width: 400px){
+	html {font-size:10px}
+}
+@media screen and (min-width: 440px){
+	html {font-size:11px}
+}
+@media screen and (min-width: 480px){
+	html {font-size:12px}
+}
+@media screen and (min-width: 520px){
+	html {font-size:13px}
+}
+@media screen and (min-width: 560px){
+	html {font-size:14px}
+}
+@media screen and (min-width: 600px){
+	html {font-size:15px}
+}
+@media screen and (min-width: 640px){
+	html {font-size:16px}
+}
+
+
+/* dibo css 10.18*/
+/* event */
+.event-info {
+	position:relative;
+	width:100%;
+	padding-top:75%;
+	font-size:0;
+	line-height:0;
+	text-indent:-9999px;
+	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/middle.jpg') no-repeat 0 0;
+	background-size:100% 100%;
+}
+.event-info a{display:block;height:8.8%;}
+.event a.btn-event{top:78%;left:25%;width:50%;height:6%}
+.event a.btn-faq{top:86.6%;left:25%;width:50%;height:3.8%}
+.event a.btn-music{top:90.8%;left:25%;width:50%;height:3.8%}
+.event-info .link-inner {
+	/* padding: 89px 12% 0 12%; */
+	overflow: hidden;
+}
+.show-member {
+	top: 33%;
+    width: 32%;
+    position: absolute;
+    left: 12%;
+}
+.show-menual {
+	top: 33%;
+    width: 25%;
+    position: absolute;
+    left: 44.5%;
+}
+.show-join {
+	top: 33%;
+    width: 17%;
+    position: absolute;
+    left: 71%;
+}
+
+/*탭*/
+.event-tab .event-tab-inner ul {
+	overflow: hidden;
+}
+.event-tab .event-tab-inner li {
+	float: left;
+	
+	width:50%;
+}
+.event-tab .event-tab-inner li a {
+	display: block;
+	text-indent: -9999px;
+	padding-top:11.94444444444444%;
+	width:100%;
+	
+}
+.event-tab .event-tab-inner .menu-call {
+	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/tab_menu01.png') no-repeat   ;
+	background-size:100% 100%
+}
+.event-tab .event-tab-inner .menu-call.selected {
+	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/tab_menu01_on.png') no-repeat   ;
+	background-size:100% 100%
+}
+.event-tab .event-tab-inner .menu-chart {
+	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/tab_menu02.png') no-repeat   ;
+	background-size:100% 100%
+}
+.event-tab .event-tab-inner .menu-chart.selected {
+	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/tab_menu02_on.png') no-repeat   ;
+	background-size:100% 100%
+}
+
+.video-vote {
+	padding-top: 3%;
+    padding-bottom: 3%;
+	border: 1px solid #ececec;
+	border-top: none;
+	box-sizing: border-box;
+	width:100%;
+}
+.video-vote a {
+	width:35%;
+	text-indent: -9999px;
+	display: block;
+	margin:0 auto;
+	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/votebtn.jpg') no-repeat   ;
+	background-size:100% 100%
+}
+
+
+/*footer*/
+.event-footer {
+	position: relative;
+	width:100%;
+	padding-top: 185.8333333333333%;
+	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/bottom.jpg') no-repeat;
+	background-size:100% 100%
+}
+
+.share-event, .buy-item {
+	width:100%;
+	
+}
+.share-icon-box {
+
+}
+.share-icon-box a {
+	text-indent: -9999px;
+    position: absolute;
+    width: 11%;
+    height: 5.5%;
+}
+.share-icon-box .share-f {
+	top: 3.9%;
+    left: 39%;
+}
+.share-icon-box .share-t {
+	top: 3.9%;
+    left: 52%;
+}
+.share-icon-box .share-k {
+	top: 3.9%;
+    left: 65.5%;
+}
+.share-icon-box .share-ks {
+	top: 3.9%;
+    left: 78.5%;
+}
+.buy-item {
+	overflow: hidden;
+	
+}
+
+.buy-item .buy-bt {
+	position: absolute;
+    display: block;
+    text-indent: -9999px;
+    width: 36%;
+    top: 16.3%;
+    left: 53%;
+    height: 6%;
+}
+
+
+
+/*실시간 순위*/
+.event-livechart {
+	display: none;
+}
+.event-livechart .livetext {
+	width: 100%;
+    padding-top: 1.388888888888889%;
+    margin-bottom: 1%;
+    text-indent: -9999px;
+    background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/tab_text.jpg) no-repeat;
+    background-size: 100% 50%;
+}
+.event-livechart .clip-thum:after {
+	content: "";
+    display: block;
+	position: absolute;
+	width:34px;
+	height:34px;
+    top: 0;
+    left: 0;
+	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/sp-level.png) no-repeat;
+	background-size:170px 150px
+}
+.event-livechart .level1 .clip-thum:after {
+	background-position:0 0 ;
+}
+.event-livechart .level2 .clip-thum:after {
+	background-position:-34px 0 ;
+}
+.event-livechart .level3 .clip-thum:after {
+	background-position:-68px 0 ;
+}
+.event-livechart .level4 .clip-thum:after {
+	background-position:-102px 0 ;
+}
+.event-livechart .level5 .clip-thum:after {
+	background-position:-136px 0 ;
+}
+.event-livechart .level6 .clip-thum:after {
+	background-position:0px -34px ;
+}
+.event-livechart .level7 .clip-thum:after {
+	background-position:-34px -34px ;
+}
+.event-livechart .level8 .clip-thum:after {
+	background-position:-68px -34px ;
+}
+.event-livechart .level9 .clip-thum:after {
+	background-position:-102px -34px ;
+}
+.event-livechart .level10 .clip-thum:after {
+	background-position:-136px -34px ;
+}
+.event-livechart .level11 .clip-thum:after {
+	background-position:0px -68px ;
+}
+.event-livechart .level12 .clip-thum:after {
+	background-position:-34px -68px ;
+}
+.event-livechart .level13 .clip-thum:after {
+	background-position:-68px -68px  ;
+}
+.event-livechart .level14 .clip-thum:after {
+	background-position:-102px -68px  ;
+}
+.event-livechart .level15 .clip-thum:after {
+	background-position:-136px -68px  ;
+}
+
+.event-livechart .clip-info {
+	border-top:1px solid #ececec;;
+}
+
+
+/*팝업 레이어*/
+.layer-head {
+	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/poptit.jpg) no-repeat;
+    /* height: 35px; */
+    background-size: 100% 100%;
+    position: relative;
+    padding-top: 11.32686084142395%;
+}
+.layer-head .layer-titbg {
+	text-indent: -9999px;
+}
+.battleSvod .popup-video .layer-close {
+    position: absolute;
+    top: 0.7em;
+    right: 1.25em;
+    width: 1.875em;
+    height: 1.875em;
+    background: url(http://image.genie.co.kr/imageg/app/promo_2017/0914/btn_close.png) no-repeat;
+    background-size: 100%;
+	font-size: 1em;
+	text-indent: -9999px;
+}
+.battleSvod .pop-title p{
+	text-align: left
+}
+.battleSvod .layer-vote-btn {
+	background: #f7f7f7;
+	border-top: 1px solid #dedede;
+	padding-top:9px;
+	height:38px;
+}
+.battleSvod .layer-vote-btn span {
+	width:170px;
+	margin:0 auto;
+	display: block;
+	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/vote.jpg) no-repeat;
+	height: 28px;
+	background-size: 100% 100%;
+
+}
+.battleSvod .layer-vote-btn span a {
+	display: inline-block;
+	text-indent: -9999px;
+	width: 60%;
+	height: 28px;
+}
+.battleSvod .layer-vote-btn  .count-num {
+	display: inline-block;
+	width:30%;
+	vertical-align: top;
+	text-align: center;
+	font-style: normal;
+	color:#00a2e9;
+	font-size:1.5em;
+	line-height: 0;
+    padding-top: 13px;
+}
+.agree-pop-tx {
+	background:#f5f3f4;
+	padding: 4% 0 6% 0;
+}
+
+.agree-pop-tx p {
+	font-size:1.6em;
+	text-align: center;
+	font-weight:bold;
+}
+.agree-pop-tx p span {
+	color:#09b6e6;
+}
+.agree-pop-tx li {
+	font-size:1.125em;
+}
+.agree-pop-tx ul {
+	padding-left: 5%;
+    padding-top: 2%;
+}
+.agreepopup-inp h4{
+	width:72px;
+	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/agree.jpg) no-repeat 0 0;
+	background-size: 72px 13px;
+	font-size: 0;
+	height:13px;
+    line-height: 0;
+	text-indent: -9999px;
+	margin: 3% 5% 0 5%;
+}
+.agreepopup-inp ul {
+	padding:3% 5% 4% 5%;
+}
+.agreepopup-inp ul li {
+	font-size: 1.313em;
+	margin-bottom: 2%;
+
+}
+.agreepopup-inp ul li input {
+	border: 1px solid #ddd;
+	height:19px;;
+	width:84%;
+	box-sizing:border-box;
+}
+.agreepopup-inp ul li label {
+	width:16%;
+	display: inline-block;
+	font-weight: bold;
+}
+.agr-yesno {
+	border-top:1px solid #bfbfbf;
+	height:42px;
+	box-sizing:border-box;
+	background: #fbfbfb;
+}
+.agr-yesno button {
+	display: inline-block;
+	text-align: center;
+	height: 41px;
+    line-height: 41px;
+	width:49%;
+	font-size:1.6em;
+}
+.agr-yesno .btn-c {
+	border-right:1px solid #bfbfbf;
+	box-sizing:border-box;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	.agreepopup-inp h4 {
+		width: 144px;
+		background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/agree.jpg) no-repeat 0 0;
+		background-size: 100% 100%;
+		font-size: 0;
+		height: 26px;
+		line-height: 0;
+		text-indent: -9999px;
+		margin: 3% 5% 0 5%;
+	
+	}
+}
+.img-inner {
+	width:100%;
+	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/pic1.jpg) no-repeat 0 0;
+	background-size: 100% 100%;
+	padding-top: 113.3333333333333%;
+}
+.staff .img-inner {
+	width:100%;
+	background: url(http://image.genie.co.kr/imageg/app/promo_2017/1101/pic2.jpg) no-repeat 0 0;
+	background-size: 100% 100%;
+	padding-top: 113.3333333333333%;
+}
+.clear-btn {
+	text-align: center;
+	font-size:1.6em;
+	border-top:1px solid #bfbfbf;
+	padding:3% 0;
+	background: #f5f3f4;
+}
+.alibt .agree-pop-tx {
+	background: #fff;
+	padding:5% 0 7% 0;
+}
+.mtb-popup .popup-video {
+	padding:0;
+}
+.mtb-popup .mtb-video iframe {
+	padding: 2%;
+    box-sizing: border-box;
+}
+.mtb-popup .mtb-video {
+	background: #fff;
+}
+
+/* 앱참여*/
+.pop-landing {width:100%;max-width:720px}
+.mtb-app-down {position:relative;width:100%;padding-top:100%;overflow:hidden}
+.mtb-app-down .btn-landing{position:absolute;top:30%;left:6%;width:88%;height:18.05555555556%;display:block;font-size:0;line-height:0;text-indent:-9999px;
+background:url('http://image.genie.co.kr/imageg/app/promo_2017/0309/btn_gate.png') no-repeat 0 0;background-size:100% 100%}
+.mtb-app-down .layer-close{display:block;position:absolute;top:58%;width:100%;text-align:center}
+.mtb-app-down .layer-close span{display:inline-block;font-size:2.5rem;line-height:2.8rem;font-weight:500;color:#fff;border-bottom:1px solid #fff}
