@@ -182,19 +182,19 @@ html {font-size:8px}
 }
 .event-tab .event-tab-inner .menu-call {
 	background:url('../img/tab_menu01.png') no-repeat   ;
-	background-size:100% 100%
+	background-size:180px 43px;
 }
 .event-tab .event-tab-inner .menu-call.selected {
 	background:url('../img/tab_menu01_on.png') no-repeat   ;
-	background-size:100% 100%
+	background-size:180px 43px;
 }
 .event-tab .event-tab-inner .menu-chart {
 	background:url('../img/tab_menu02.png') no-repeat   ;
-	background-size:100% 100%
+	background-size:180px 43px;
 }
 .event-tab .event-tab-inner .menu-chart.selected {
 	background:url('../img/tab_menu02_on.png') no-repeat   ;
-	background-size:100% 100%
+	background-size:180px 43px;
 }
 
 .video-vote {
