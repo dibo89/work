@@ -134,7 +134,7 @@ html {font-size:8px}
 	font-size:0;
 	line-height:0;
 	text-indent:-9999px;
-	background:url('http://image.genie.co.kr/imageg/app/promo_2017/1101/middle.jpg') no-repeat 0 0;
+	background:url('./img/middle.jpg') no-repeat 0 0;
 	background-size:100% 100%;
 }
 .event-info a{display:block;height:8.8%;}
