@@ -211,7 +211,9 @@ html {font-size:8px}
 	display: block;
 	margin:0 auto;
 	background:url('../img/votebtn.jpg') no-repeat   ;
-	background-size:100% 100%
+	background-size: 100% 17px;
+    width: 60px;
+    height: 17px;
 }
 
 
