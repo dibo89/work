@@ -206,13 +206,12 @@ html {font-size:8px}
 	width:100%;
 }
 .video-vote a {
-	width:35%;
 	text-indent: -9999px;
 	display: block;
 	margin:0 auto;
 	background:url('../img/votebtn.jpg') no-repeat   ;
 	background-size: 100% 17px;
-    width: 60px;
+	width: 60px;
     height: 17px;
 }
 
