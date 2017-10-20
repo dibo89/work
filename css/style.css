@@ -585,5 +585,59 @@ background:url('http://image.genie.co.kr/imageg/app/promo_2017/0309/btn_gate.png
 .battleSvod .layer-vote-btn  .count-num {
 	padding-top:25px;
 }
-
+.event-livechart .clip-thum:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: 0;
+    left: 0;
+    background-size: 340px 300px;
+}
+.event-livechart .level1 .clip-thum:after {
+	background-position:0 0 ;
+}
+.event-livechart .level2 .clip-thum:after {
+	background-position:-68px 0 ;
+}
+.event-livechart .level3 .clip-thum:after {
+	background-position:-136px 0 ;
+}
+.event-livechart .level4 .clip-thum:after {
+	background-position:-204px 0 ;
+}
+.event-livechart .level5 .clip-thum:after {
+	background-position:-272px 0 ;
+}
+.event-livechart .level6 .clip-thum:after {
+	background-position:0px -68px ;
+}
+.event-livechart .level7 .clip-thum:after {
+	background-position:-68px -68px ;
+}
+.event-livechart .level8 .clip-thum:after {
+	background-position:-136px -68px ;
+}
+.event-livechart .level9 .clip-thum:after {
+	background-position:-204px -68px ;
+}
+.event-livechart .level10 .clip-thum:after {
+	background-position:-272px -68px ;
+}
+.event-livechart .level11 .clip-thum:after {
+	background-position:0px -136px ;
+}
+.event-livechart .level12 .clip-thum:after {
+	background-position:-68px -136px ;
+}
+.event-livechart .level13 .clip-thum:after {
+	background-position:-136px -136px ;
+}
+.event-livechart .level14 .clip-thum:after {
+	background-position:-204px -136px  ;
+}
+.event-livechart .level15 .clip-thum:after {
+	background-position:-272px -136px  ;
+}
 }
