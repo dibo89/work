@@ -49,7 +49,7 @@ button::-moz-focus-inner {padding:0;border:0}
 .video .clip-info .view{position:absolute;top:32%;left:6%;width:28%;height:36.17021276595745%;padding-left:9.2359%;font-family:'Malgun Gothic','맑은고딕';font-size:1em;font-weight:bold;line-height:1.2;color:#aaa}
 .video .clip-info .view:after{content:""; display:block;position:absolute;top:0;left:0;width:22.12389380530937%;height:100%;background:url('../img/goodbtn.png') no-repeat 0 0;background-size:auto 100%}
 .video .clip-info .profile{display:block;position:absolute;top:13%;right:6%;width:45%;height:74.4608510638298%}
-.video .clip-info .name{position:absolute;top:25%;right:31%;width:75%;height:48.57142857142857%;font-family:'Malgun Gothic','맑은고딕';font-size:1em;line-height:1;text-align:right;color:#262626;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden}
+.video .clip-info .name{position:absolute;top:25%;right:31%;width:75%;height:48.57142857142857%;font-family:'Malgun Gothic','맑은고딕';font-size:1.2em;line-height:1;text-align:right;color:#262626;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden}
 .video .clip-info .pro{display:block;position:absolute;top:0;right:0;width:28.45528455284553%;height:100%;border-radius:50%;overflow:hidden}
 .video .clip-info .pro img{width:100%}
 .video .btn-wrap a{position:relative;display:block;width:47.08333333333%;padding-top:7.77777777778%;margin:0 auto;font-size:0;line-height:0;text-indent:-9999px;background:url('../img/btn_load.png') no-repeat 0 0;background-size:100% 100%}
