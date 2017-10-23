@@ -43,7 +43,7 @@ button::-moz-focus-inner {padding:0;border:0}
 .video .clip-thum img{width:100%;height:auto}
 .video .clip-txt{position:relative;width:100%;padding-top:29.49640287769784%;font-size:0.875em;border:1px solid #ececec;border-top:none;border-bottom:none;background-color:#fff;box-sizing:border-box}
 .video .clip-txt .tit{position:absolute;top:18%;left:6%;width:85%;height:1.2em;font-size:1.285714285714286em;line-height:1;font-weight:bold;color:#262626}
-.video .clip-txt .txt{position:absolute;top:51.21951219512195%;left:6%;width:85%;height:1.2em;font-size:1em;line-height:1;color:#b9b9b9}
+.video .clip-txt .txt{position:absolute;top:51.21951219512195%;left:6%;width:85%;height:1.2em;font-size:1.2em;line-height:1;color:#b9b9b9}
 .video .clip-info{position:relative;width:100%;padding-top:16.90647482014388%;font-size:0.875em;border:1px solid #ececec;border-top:none;box-sizing:border-box}
 .video .clip-info:after{content:""; display:block; clear:both}
 .video .clip-info .view{position:absolute;top:32%;left:6%;width:28%;height:36.17021276595745%;padding-left:9.2359%;font-family:'Malgun Gothic','맑은고딕';font-size:1em;font-weight:bold;line-height:1.2;color:#aaa}
